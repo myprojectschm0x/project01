@@ -1,0 +1,44 @@
+/* ASIDE BAR */
+#sidebar{
+    /* flex-grow: 1; */
+    flex:2;
+    /* min-height: 600px; */
+}
+
+.block-aside{
+    display: block;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 0 9px #36c119, -1px -1px 4px #fff;
+}
+
+.block-aside h3{
+    margin: 18px 0;
+}
+
+.button{
+    display: block;
+    width: 80%;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+}
+
+.create-blog{
+    background-color: green;
+}
+
+.data{
+    background-color: orange;
+}
+
+
+.logout{
+    background-color: red;
+}

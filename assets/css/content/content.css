@@ -1,0 +1,106 @@
+/* #container{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+#container{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 900px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}   
+
+
+/* MAIN */
+#main{
+    flex: 5;
+    padding: 18px;
+    min-height: 600px;
+    background-color:white;
+    border-radius: 9px;
+    box-shadow: 0 0 6px #36c119;
+    /* box-shadow: 0 0 6px black; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+#main #section{
+    flex:1;
+}
+#main .news a,
+#main #see-all a{
+    color: #999;
+}
+#main h1{
+    font-size: 31px;
+    color: #26bd02;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'jetbrainsbold';
+    text-transform: uppercase;
+}
+#main h2{
+    font-size: 20px;
+    color: #006cff78;
+    text-shadow: 1px 1px 2px #ccc;
+    font-family: 'jetbrainsbold';
+    text-transform: uppercase;
+}
+#main .news{
+    margin-top: 30px;
+}
+#main .news p{
+    margin-top:10px;
+}
+#spacing{
+    flex:1;
+}
+
+#main #see-all{
+    flex:0.1;
+    min-width: 0;
+}
+#main #see-all a{
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    transition: all 500ms;
+}
+
+#main #see-all a:hover{
+    cursor:pointer;
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 1px black;
+    border-radius: 9px;
+    padding: 9px;
+}
+
+#main .btn-edition-deletion{
+    display:flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+#main .btn-edition-deletion a{
+    flex: 1;
+    flex-grow: 2;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+}
+#main .btn-edition-deletion .btn-edit{
+    background-color: green;
+}
+#main .btn-edition-deletion .btn-delete{
+    background-color: red;
+}
+
+

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'jetbrainsbold';
+    src: url(../fonts/jetbrainsfonts/ttf/JetBrainsMonoNL-ExtraBold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif,Helvetica, Arial;
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+body{
+    background-image: url(../img/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label,
+textarea,
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    display: block;
+    width: 95%;
+    margin:2px auto;
+}
+
+input[type="buttom"],
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 9px;
+    border:none;
+    background-color: #006cff78;
+    border-radius: 11px;
+    box-shadow: 2px 2px 2px #000, 3px 3px 2px #ccc ;
+    cursor: pointer;
+}
+
+input[type="buttom"]:hover,
+input[type="submit"]:hover{
+    background-color: #fff;
+    box-shadow: inset 2px 2px 2px #36c119, inset -2px -2px 2px #36c119;
+}
+input[type="buttom"]:active,
+input[type="submit"]:active{
+    box-shadow: inset 2px 2px 7px #ccc, inset -2px -2px 7px #ccc;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 8px 16px;
+    text-align: center;
+}
+.pagination .spacing{
+    flex:1;
+}
+.previous{
+    /* flex:2; */
+    flex-grow: 0;
+    flex-basis: 4%;
+    background-color: #f1f1f1;
+    color: black;
+}
+.next{
+    /* flex:2; */
+    flex-grow: 0;
+    flex-basis: 4%;
+    background-color: #04aa6d;
+    color: white;
+}
+
+.round{
+    border-radius: 50%;
+}
+
