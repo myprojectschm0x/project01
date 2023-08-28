@@ -8,13 +8,16 @@ A basic website with pure PHP and contains login and connection to MySQL.
 
 1. PHP
 2. HTML
-3. CSS 
+3. CSS
 4. MySQL
 5. Git
 
 ## Setup
 
-Set the database's credentials on `includes/connection.php`.
+Execute the sql sentence on `database.sql`.
+
+
+Then et the database's credentials on `includes/connection.php`.
 
 ```
 $host = '';
@@ -25,3 +28,5 @@ $database = '';
 $db = mysqli_connect($host, $username, $password, $database);
 mysqli_query($db, "set names 'utf8'");
 ```
+
+Thank you.
